@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=divice-width,initail-scale=1.0">
+   <title>To do list web app</title>
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!--CSS file linked-->
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+      <h2>To Do List</h2>
+      <div class="input-field">
+          <input type="text" placeholder="Add your new todo">
+          <button><i class="fas fa-plus"></i></button>
+      </div>
+      <ul class="todo"> 
+        <li>Complete LGM Tasks<span><i class="fas fa-trash"></i></span></li>
+        <li>Learn DSA<span><i class="fas fa-trash"></i></span></li>
+        <li>Aptitude Preparation<span><i class="fas fa-trash"></i></span></li>
+        <li>Interview Preparation<span><i class="fas fa-trash"></i></span></li>
+      </ul>
+      <div class="footer">
+          <span>You have <span class="pendingNumber"></span> pending tasks</span>
+          <button>Clear all</button>
+      </div>
+    </div>
+    
+
+    <!--JS file linked-->
+    <script src="script.js"></script>
+</body>
+</html>
